@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mplobanov/CLionProjects/matrix/Finite/finite.cpp
+../prime_check/is_prime.cpp
+/Users/mplobanov/CLionProjects/matrix/prime_check/is_prime.cpp
+
+/Users/mplobanov/CLionProjects/matrix/main.cpp
+iostream
+-
+Finite/finite.cpp
+/Users/mplobanov/CLionProjects/matrix/Finite/finite.cpp
+
+/Users/mplobanov/CLionProjects/matrix/prime_check/is_prime.cpp
+
